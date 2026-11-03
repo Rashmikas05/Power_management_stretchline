@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Powermanagement">
+
+    <TextView
+        android:id="@+id/tex1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Power Source Monitoring"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="KNITTING PLANT"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tex1"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+
+    <ImageView
+        android:id="@+id/imags"
+        android:layout_width="343dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangshapes"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageView
+        android:id="@+id/imags2"
+        android:layout_width="343dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imags"
+        app:srcCompat="@drawable/rectangshapes"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/text41"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:text="Connecting"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imags2"
+        app:layout_constraintEnd_toEndOf="@+id/imags2"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="@+id/imags2"
+        app:layout_constraintTop_toTopOf="@+id/imags2"
+        app:layout_constraintVertical_bias="0.601"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <TextView
+        android:id="@+id/text55"
+        android:layout_width="209dp"
+        android:layout_height="46dp"
+        android:text="Generator status"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imags2"
+        app:layout_constraintEnd_toEndOf="@+id/imags2"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="@+id/imags2"
+        app:layout_constraintTop_toTopOf="@+id/imags2"
+        app:layout_constraintVertical_bias="0.269"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="209dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="20dp"
+        android:text="CEB Power status"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imags"
+        app:layout_constraintStart_toStartOf="@+id/imags"
+        app:layout_constraintTop_toTopOf="@+id/imags"
+        app:layout_constraintVertical_bias="0.256"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="164dp"
+        android:layout_height="44dp"
+        android:text="Connecting"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imags"
+        app:layout_constraintEnd_toEndOf="@+id/imags"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="@+id/imags"
+        app:layout_constraintTop_toTopOf="@+id/imags"
+        app:layout_constraintVertical_bias="0.601"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="79dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:text="....."
+        android:textColor="@color/white"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imags"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/imags"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewrun"
+        android:layout_width="75dp"
+        android:layout_height="64dp"
+        android:text="....."
+        android:textColor="@color/white"
+        android:textSize="37dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imags2"
+        app:layout_constraintEnd_toEndOf="@+id/imags2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/text55"
+        app:layout_constraintTop_toTopOf="@+id/imags2"
+        app:layout_constraintVertical_bias="0.304"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="77dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imags2"
+        app:layout_constraintEnd_toEndOf="@+id/imags2"
+        app:layout_constraintStart_toEndOf="@+id/text41"
+        app:layout_constraintTop_toBottomOf="@+id/textViewrun"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/gen" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="49dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imags"
+        app:layout_constraintEnd_toEndOf="@+id/imags"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.086"
+        app:srcCompat="@mipmap/elec" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

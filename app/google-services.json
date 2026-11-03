@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "884869918750",
+    "firebase_url": "https://knittingiot-df099-default-rtdb.firebaseio.com",
+    "project_id": "knittingiot-df099",
+    "storage_bucket": "knittingiot-df099.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884869918750:android:16de4057611a146533be0f",
+        "android_client_info": {
+          "package_name": "com.rtm.logingiot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVd3JSzMw1DUcH2Mx1RrKBVNvP-KSGUWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="@string/plant_monitoring"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="24sp"
+        />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_text"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/Password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="24sp"
+        android:layout_below="@+id/login_text"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password_text"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,TextFields" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/login"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck" />
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="24dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/buttonlogin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="20dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/stretch1"
+        tools:ignore="RtlHardcoded" />
+
+
+    <TextView
+        android:id="@+id/madefor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MADE FOR BETTER"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:layout_marginRight="50dp"
+        android:textSize="17sp"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>
